@@ -1,6 +1,18 @@
 var audio = new Audio('assets/sentmessage.mp3');
 var contactString = "<div class='social'> <a href='mailto:soni2.official@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Alpha2Target'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a href='https://www.linkedin.com/in/lakshya-soni-803140291/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Lakshya's Resume.pdf</label></div><a href='assets/Vinayak Patil&#39;s Resume.pdf' download='Vinayak_Patil_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var resumeString = `
+  <img src='images/resumeThumbnail.png' class='resumeThumbnail'>
+  <div class='downloadSpace'>
+    <div class='pdfname'>
+      <img src='images/pdf.png'>
+      <label>Lakshya's Resume.pdf</label>
+    </div>
+    <a href='assets/Lakshya_Resume.pdf' download='Lakshya_Resume.pdf'>
+      <img class='download' src='images/downloadIcon.svg'>
+    </a>
+  </div>
+`;
+
 var addressString = "<div class='mapview'><label class='add'>I am from <address>📍 Jaipur, Rajasthan, India</address></label></div>";
 
 function startFunction() {
